@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <title>Bora Codar 02</title>
+</head>
+<body>
+    <section class="container">
+
+        <div class="esquerda">
+            <div id="parado">
+                <div class="elementos-parado">
+                    <img class="sofa-parado" src="./assets/sofa-parado.png" alt="">
+                    <img onclick="girar()" class="botao-girar" src="./assets/botao-360.png" alt="">
+                </div>
+            </div>
+            <div id="movendo">
+                <div class="elementos-movendo">
+                    <img class="sofa-girando" src="./assets/sofa-girando.gif" alt="">
+                    <img onclick="parar()" class="botao-parar" src="./assets/botao-fechar.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="direita">
+            <div class="info-direita">
+                <div class="textos">
+                    <h2 class="codigo">CÓDIGO: 42404</h2>
+                    <h1>Sofá Margot II - Rosé</h1>
+                    <h2 class="preco">R$ 4.000</h2.>
+                </div>
+                <button>ADICIONAR À CESTA</button>
+            </div>
+        </div>
+
+    </section>
+</body>
+<script src="./js/main.js"></script>
+</html>
